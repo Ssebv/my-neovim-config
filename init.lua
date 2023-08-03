@@ -1,0 +1,2 @@
+require("ressc")
+print("hello")
