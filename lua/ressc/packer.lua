@@ -17,4 +17,9 @@ return require('packer').startup(function(use)
   use ("theprimeagen/harpoon")  
   use ('mbbill/undotree')
   use ('tpope/vim-fugitive')
+  use ("petertriho/nvim-scrollbar")
+  use ('junegunn/fzf.vim')
+
+
+
 end)

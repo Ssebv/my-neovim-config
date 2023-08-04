@@ -1,2 +1,1 @@
 require("ressc")
-print("hello")

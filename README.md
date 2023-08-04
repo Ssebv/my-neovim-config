@@ -48,4 +48,8 @@ Search git repository
     - Shorcuts
         `space + gs`
 
+##### GitHub - Copilot 
+
+Start Neovim and invoke `:Copilot setup`
+
 
