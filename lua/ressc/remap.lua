@@ -5,6 +5,9 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv") 
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+
+
+
 -- Normal mode mappings -> move current line / block of text in insert mode
 vim.keymap.set("n", "J", "mzJ`z")
 
@@ -16,6 +19,11 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+--NERDTree
+vim.keymap.set("n", "<leader>n", "<cmd>NERDTreeFocus<CR>")
+vim.keymap.set("n", "<C-n>", "<cmd>NERDTree<CR>")
+vim.keymap.set("n", "<C-t>", "<cmd>NERDTreeToggle<CR>")
+vim.keymap.set("n", "<C-f>", "<cmd>NERDTreeFind<CR>")
 
 -- Greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
